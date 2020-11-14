@@ -2,7 +2,7 @@
 del /Q SCW.exe
 if not %errorlevel% == 0 (
 	echo;
-	echo アップデートに失敗しました。
+	echo Update Failed.
 	echo;
 	pause
 	exit
@@ -10,12 +10,12 @@ if not %errorlevel% == 0 (
 copy /Y rem ---userdcm---Update\SCW.exe %~dp0
 if not %errorlevel% == 0 (
 	echo;
-	echo アップデートに失敗しました。
+	echo Update Failed.
 	echo;
 	pause
 ) else (
 	echo;
-	echo アップデートが完了しました。
+	echo Update Complete.
 	echo;
 	pause
 )
