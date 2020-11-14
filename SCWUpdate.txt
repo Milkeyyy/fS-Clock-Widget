@@ -1,5 +1,5 @@
 @echo off
-del /Q SCW.exe
+del /Q %~dp0SCW.exe
 if not %errorlevel% == 0 (
 	echo;
 	echo Update Failed.
