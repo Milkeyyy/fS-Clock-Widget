@@ -13,11 +13,9 @@ if not %errorlevel% == 0 (
 	echo アップデートに失敗しました。
 	echo;
 	pause
-	exit
 ) else (
 	echo;
 	echo アップデートが完了しました。
 	echo;
 	pause
-	exit
 )
