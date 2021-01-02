@@ -1,5 +1,13 @@
-Simple Clock Widget - Changelog
+fS Clock Widget - Changelog
 
+Version 1.0-test.4 [10.210101] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0-test.4)
+	フォント変更後にもう一度変更しようとすると、前のフォントが指定された状態になる不具合を修正
+	設定画面が表示されていないときにメイン画面を再読み込みすると、アプリケーションが終了してしまう不具合を修正
+	アプリ名を「fS Clock Widget」へ変更 (1.0-test.3以前のコンフィグファイルは読み込まれない)
+	バージョン情報にビルド日を追加
+	お知らせ機能を追加
+	アップデート時にファイルを削除する機能を追加
+	
 Version 1.0-test.3 [10.201204] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0-test.3)
 	設定画面のタブの外観を変更
 	設定画面の文字色と背景色のボタン色を設定されている色で表示するように変更
