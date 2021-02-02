@@ -5,6 +5,7 @@ Version 1.0-test.5 [10.210201] (https://github.com/Milkeyyy/simpleclockwidget/re
 	設定画面にアップデートチェックをする項目を追加
 	ソフトウェア情報へプロデルの情報を追加
 	設定画面のレイアウトを一部変更
+	重複して起動しようとした際に警告画面を表示するように変更
 	プロデルのバージョンを「1.8.1046」へ更新
 	
 Version 1.0-test.4 [10.210101] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0-test.4)
