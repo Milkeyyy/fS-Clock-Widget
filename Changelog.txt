@@ -1,5 +1,13 @@
 fS Clock Widget - Changelog
 
+Version 1.0-test.6 [10.210202] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0-test.6)
+	アプリケーション情報の表記を一部変更
+	時計の表示手順を別スレッドで実行するように変更
+	セーフモードを追加 (設定ファイルの値を変更できる画面)
+	起動引数「/safeMode」を追加
+	初回起動時の設定ファイル生成時にエラーが発生して起動できない不具合を修正
+	エラーが発生した際にエラー内容のテキストを生成するように変更
+	
 Version 1.0-test.5 [10.210201] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0-test.5)
 	背景画像を変更する設定項目を追加
 	設定画面にアップデートチェックをする項目を追加
