@@ -1,5 +1,12 @@
 fS Clock Widget - Changelog
 
+Version 1.0.0-release [10000.210201] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0.0-release)
+	配信モードの設定項目を削除
+	終了ボタンをクリックした際に、確認画面を表示するように変更
+	設定画面の背景画像リセットボタンをクリックした際に、確認画面を表示するように変更
+	設定画面にGitHubリポジトリーを表示する項目を追加
+	設定画面に変更履歴を表示する項目を追加
+	
 Version 1.0-test.6 [10.210202] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0-test.6)
 	アプリケーション情報の表記を一部変更
 	時計の表示手順を別スレッドで実行するように変更
