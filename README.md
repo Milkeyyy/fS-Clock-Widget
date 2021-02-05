@@ -1,4 +1,13 @@
 # fS Clock Widget
+## 画像
+![fscw01](https://user-images.githubusercontent.com/59532514/107040408-8a08fc00-6802-11eb-914a-7fddefdf34be.png)
+### 設定画面
+![fscw02](https://user-images.githubusercontent.com/59532514/107040424-8ecdb000-6802-11eb-807f-7937aaf3fae9.png)
+![fscw03](https://user-images.githubusercontent.com/59532514/107040425-8f664680-6802-11eb-9baf-47f1290e2b8d.png)
+### カスタマイズ例
+![fscw04](https://user-images.githubusercontent.com/59532514/107040426-8f664680-6802-11eb-8863-59d97d9ac332.png)
+![fscw05](https://user-images.githubusercontent.com/59532514/107040432-90977380-6802-11eb-9fb5-75a78dec1a35.png)
+
 ## インストール方法 (1.0-test.4以降)
 1. 「**fSCWInstaller.exe**」をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
 2. ダウンロードした「**fSCWInstaller.exe**」を実行する
