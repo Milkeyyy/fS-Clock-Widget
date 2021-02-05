@@ -1,6 +1,6 @@
 # fS Clock Widget
 ## インストール方法 (1.0-test.4以降)
-1. 「**fSCWInstaller.exe**」をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases)
+1. 「**fSCWInstaller.exe**」をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
 2. ダウンロードした「**fSCWInstaller.exe**」を実行する
 3. ウィンドウが表示されたらインストール先を指定して「**Extract**」をクリックする (フォルダーは自動的に作成されます)
 4. 完了
