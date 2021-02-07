@@ -1,5 +1,13 @@
 fS Clock Widget - Changelog
 
+Version 1.0.1-release [10001.210202] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0.1-release)
+	右クリックメニューにアイコンを追加
+	右クリックメニューにアップデートチェックの項目を追加
+	右クリックメニューの並び順を変更
+	設定画面のデザインを一部変更
+	背景画像の配置位置の設定項目を追加
+	エラーログの名前形式を変更
+	
 Version 1.0.0-release [10000.210201] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.0.0-release)
 	配信モードの設定項目を削除
 	終了ボタンをクリックした際に、確認画面を表示するように変更
