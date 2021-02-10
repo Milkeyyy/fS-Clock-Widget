@@ -1,7 +1,7 @@
 
 1 VERSIONINFO
-FILEVERSION 1,0,0,0
-PRODUCTVERSION 1,0,0,0
+FILEVERSION 1,1,0,0
+PRODUCTVERSION 1,1,0,0
 FILEOS 0x4
 FILETYPE 0x1
 {
@@ -11,11 +11,11 @@ BLOCK "StringFileInfo"
 	{
 		VALUE "Comments", ""
 		VALUE "CompanyName", ""
-		VALUE "FileDescription", "Simple Clock Widget"
-		VALUE "FileVersion", "1.0.0.0"
-		VALUE "InternalName", "SCW"
+		VALUE "FileDescription", "fS Clock Widget"
+		VALUE "FileVersion", "1.1.0.0"
+		VALUE "InternalName", "fSCW"
 		VALUE "LegalCopyright", "Copyright(C) 2021 Milkeyyy"
 		VALUE "LegalTrademarks", ""
-		VALUE "OriginalFilename", "SCW.exe"
-		VALUE "ProductName", "Simple Clock Widget"
-		VALUE "ProductVersion", "1.0-test.1_Build.2021.0202.2-1.8.1046"
+		VALUE "OriginalFilename", "fSCW.exe"
+		VALUE "ProductName", "fS Clock Widget"
+		VALUE "ProductVersion", "1.1.0-release_Build.2021.0210.1-1.8.1046"
