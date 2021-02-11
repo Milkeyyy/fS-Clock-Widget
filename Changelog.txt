@@ -1,5 +1,14 @@
 fS Clock Widget - Changelog
-
+	
+Version 1.1.1-release [10101.210205] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.1.1-release)
+	[変更点]
+	アイコンを実装
+	アップデート時に変更履歴を表示するように変更
+	
+	[不具合修正]
+	アップデート画面のウィンドウ名称を修正
+	変更履歴画面のウィンドウ名称を修正
+	
 Version 1.1.0-release [10100.210204] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.1.0-release)
 	[変更点]
 	右クリックメニューにアイコンを追加
