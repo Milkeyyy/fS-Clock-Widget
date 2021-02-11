@@ -1,9 +1,8 @@
 fS Clock Widget - Changelog
 	
-Version 1.1.2-release [10102.210206] ()
+Version 1.1.2-release [10102.210206] (未リリース)
 	[変更点]
-	アイコンファイルをすべて実行ファイル内に同梱、Resourcesフォルダーを削除
-	アップデート時にフォルダーを削除する機能を追加
+	
 	
 Version 1.1.1-release [10101.210205] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.1.1-release)
 	[変更点]
