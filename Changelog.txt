@@ -1,5 +1,10 @@
 fS Clock Widget - Changelog
 	
+Version 1.2.0-release [10200.210207] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.0-release)
+	[変更点]
+	プロファイル機能を実装
+	アイコンのデザインを変更
+	
 Version 1.1.2-release [10102.210206] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.1.2-release)
 	[変更点]
 	タスクトレイアイコンを実装
