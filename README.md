@@ -11,13 +11,17 @@
 [**インストール方法**](https://github.com/Milkeyyy/simpleclockwidget#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95-10-test4%E4%BB%A5%E9%99%8D)
 
 ## 画像
-![fscw01](https://user-images.githubusercontent.com/59532514/107040408-8a08fc00-6802-11eb-914a-7fddefdf34be.png)
+
 ### 設定画面
-![fscw02](https://user-images.githubusercontent.com/59532514/107040424-8ecdb000-6802-11eb-807f-7937aaf3fae9.png)
-![fscw03](https://user-images.githubusercontent.com/59532514/107040425-8f664680-6802-11eb-9baf-47f1290e2b8d.png)
+![fs4](https://user-images.githubusercontent.com/59532514/107875988-9417b280-6f06-11eb-9108-2eb1b541ce78.png)
+![fs5](https://user-images.githubusercontent.com/59532514/107875990-9417b280-6f06-11eb-8f09-5a47303293fe.png)
+![fs6](https://user-images.githubusercontent.com/59532514/107875991-94b04900-6f06-11eb-8446-b321a1998ec4.png)
+
 ### カスタマイズ例
-![fscw04](https://user-images.githubusercontent.com/59532514/107040426-8f664680-6802-11eb-8863-59d97d9ac332.png)
-![fscw05](https://user-images.githubusercontent.com/59532514/107040432-90977380-6802-11eb-9fb5-75a78dec1a35.png)
+![fs1](https://user-images.githubusercontent.com/59532514/107875984-8feb9500-6f06-11eb-845b-3ef72ebe8bb6.png)
+![fs2](https://user-images.githubusercontent.com/59532514/107875986-91b55880-6f06-11eb-8b83-c0f541e3f154.png)
+![fs3](https://user-images.githubusercontent.com/59532514/107875987-924def00-6f06-11eb-8ebe-1575fdca2933.png)
+
 
 ## インストール方法 (1.0-test.4以降)
 1. 「**fSCWInstaller.exe**」をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
