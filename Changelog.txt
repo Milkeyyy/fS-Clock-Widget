@@ -1,5 +1,14 @@
 fS Clock Widget - Changelog
 	
+Version 1.2.1-release [10200.210208] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.1-release)
+	[変更点]
+	メインウィジェットの右クリックメニューにプロファイルの項目を追加
+	タスクトレイアイコンにプロファイルの項目を追加
+	
+	[不具合修正]
+	プロファイルを切り替える際に「終了してもよろしいですか？」という確認ウィンドウが表示されてエラーが発生する
+不具合を修正
+	
 Version 1.2.0-release [10200.210207] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.0-release)
 	[変更点]
 	プロファイル機能を実装
