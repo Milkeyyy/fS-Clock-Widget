@@ -1,4 +1,9 @@
 # fS Clock Widget
+
+## 使用用途
+一応生配信とかで時計を表示するための用途を想定しています。
+
+
 ## 画像
 ![fscw01](https://user-images.githubusercontent.com/59532514/107040408-8a08fc00-6802-11eb-914a-7fddefdf34be.png)
 ### 設定画面
