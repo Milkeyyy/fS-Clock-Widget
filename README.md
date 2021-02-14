@@ -8,6 +8,8 @@
 
 使用は自己責任でお願いします。
 
+[インストール方法](https://github.com/Milkeyyy/simpleclockwidget#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95-10-test4%E4%BB%A5%E9%99%8D)
+
 ## 画像
 ![fscw01](https://user-images.githubusercontent.com/59532514/107040408-8a08fc00-6802-11eb-914a-7fddefdf34be.png)
 ### 設定画面
