@@ -1,5 +1,14 @@
 fS Clock Widget - Changelog
 	
+Version 1.2.3-release [10203.210301] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.3-release)
+	[変更点]
+	設定画面からフォーカスが外れると、設定画面を隠すように変更
+	右クリックメニューにウィンドウを移動する項目を追加
+	時刻の表示がウィンドウからはみ出る場合、「...」で省略するように変更
+	
+	[不具合修正]
+	メインウィジェットを先に閉じて設定画面だけの状態で閉じると、バックグラウンドで動作し続ける不具合を修正
+	
 Version 1.2.2-release [10202.210209] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.2-release)
 	[変更点]
 	タスクトレイアイコンのメニューから「プロファイル」の項目を削除
