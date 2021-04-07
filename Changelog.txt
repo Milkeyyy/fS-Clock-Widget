@@ -2,7 +2,8 @@ fS Clock Widget - Changelog
 	
 Version 1.2.5-release [10205.210402] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.5-release)
 	[変更点]
-	タスクトレイアイコンを表示するタイミングを「メイン画面表示後」に変更
+	アイコンを仮のものから正式なものへ変更
+	タスクトレイアイコンを表示するタイミングをメイン画面表示後に変更
 	実行ファイルを64-Bitでも実行できるように変更
 	コンテキストメニューのレイアウトをちょっっっっとだけ変更
 	

@@ -1,4 +1,4 @@
-素材として「..\Resources\Icons\App\icon-x128.ico」を利用する
+素材として「..\Resources\Icons\App\icon.ico」を利用する
 素材として「..\Resources\Icons\cross-cursor-x16.png」を利用する
 素材として「..\Resources\Icons\cross-x16.png」を利用する
 素材として「..\Resources\Icons\file-x16.png」を利用する
@@ -9,7 +9,7 @@
 素材として「..\Resources\Icons\share-x16.png」を利用する
 素材として「..\Resources\Icons\update-x16.png」を利用する
 素材として「..\Resources\Icons\window-x16.png」を利用する
-素材リストから「icon-x128.ico」をアイコンとして取得して、メインアイコンとする
+素材リストから「icon.ico」をアイコンとして取得して、メインアイコンとする
 素材リストから「cross-x16.png」を画像として取得して、pic_cross_x16とする
 素材リストから「cross-cursor-x16.png」を画像として取得して、pic_cross_cursor_x16とする
 素材リストから「file-x16.png」を画像として取得して、pic_file_x16とする
@@ -24,8 +24,8 @@
 プログラムのタイトル=「fS Clock Widget」
 バージョン=「1.2.5-release」
 内部バージョン=10205.210402
-ビルドバージョン=「2021.0405.1-[プロデルのバージョン]」
-ビルド日=「2021/04/05」
+ビルドバージョン=「2021.0407.1-[プロデルのバージョン]」
+ビルド日=「2021/04/07」
 アップデートファイル=「https://raw.githubusercontent.com/Milkeyyy/simpleclockwidget/main/update.ini」
 変更履歴URL=「https://raw.githubusercontent.com/Milkeyyy/simpleclockwidget/main/Changelog.txt」
 初期設定=「[[]info[]]

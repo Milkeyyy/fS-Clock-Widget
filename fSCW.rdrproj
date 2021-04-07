@@ -9,7 +9,7 @@
     <項目 名前="LegalCopyright" 値="Copyright 2021 Milkeyyy" />
   </バージョン>
   <リソース>
-    <項目 名前="アイコン" 値="Resources\Icons\App\icon-x128.ico" />
+    <項目 名前="アイコン" 値="Resources\Icons\App\icon.ico" />
   </リソース>
   <実行開始 モード="AsNewProcess" パス="" 形式="Executable" />
 </プロジェクト>
