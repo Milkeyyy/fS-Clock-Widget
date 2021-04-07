@@ -1,5 +1,12 @@
 fS Clock Widget - Changelog
 	
+Version 1.2.5-release [10205.210402] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.5-release)
+	[変更点]
+	アイコンを仮のものから正式なものへ変更
+	タスクトレイアイコンを表示するタイミングをメイン画面表示後に変更
+	実行ファイルを64-Bitでも実行できるように変更
+	コンテキストメニューのレイアウトをちょっっっっとだけ変更
+	
 Version 1.2.4-release [10204.210401] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.4-release)
 	[変更点]
 	設定画面からフォーカスが外れると設定画面を隠す仕様を削除
