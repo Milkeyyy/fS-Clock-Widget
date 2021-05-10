@@ -2,12 +2,14 @@ fS Clock Widget - Changelog
 	
 Version 1.2.7-release [10207.210501] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.7-release)
 [変更点]
+インストーラーを追加
 起動引数「/Profile {プロファイル名}」を追加、プロファイルを指定して起動できる
 プロファイル一覧画面のデザインを改善
 設定画面のデザインを改善
 アップデート画面の色を変更
 時刻表示形式のプリセットの種類を追加
 時刻表示形式のHelp?のURL先を変更
+設定画面へアンインストールボタンを追加
 設定画面へPC自体の時計のタイムゾーンの表記を追加
 設定画面の「一部の設定は...」というテキストを削除
 セーフモードを削除、同時に起動引数「/SafeMode」も削除
