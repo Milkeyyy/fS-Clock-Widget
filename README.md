@@ -24,13 +24,29 @@ OBSとかでクロマキーで背景抜いて配置したらいいかんじに�
 ![fs2](https://user-images.githubusercontent.com/59532514/107875986-91b55880-6f06-11eb-8b83-c0f541e3f154.png)
 ![fs3](https://user-images.githubusercontent.com/59532514/107875987-924def00-6f06-11eb-8ebe-1575fdca2933.png)
 
-## インストール方法 (1.2.6-release以降)
+## インストール方法
+1. **`fSCW-QuickInstaller.exe`** をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
+2. ダウンロードした **`fSCW-QuickInstaller.exe`** を実行する
+3. インストールが実行されるので待つ
+4. 完了！
+
+## アップデート方法
+・アプリケーション起動時に表示される確認画面で「はい」をクリックする/設定画面からアップデートする
+
+または
+
+・**`fSCW-QuickInstaller.exe`** をダウンロードし、実行してインストールする
+
+
+---
+## 以下は旧バージョンの手順です
+## インストール方法 (1.2.6-release)
 1. **`fSCWInstaller.bat`** をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
 2. ダウンロードした **`fSCWInstaller.bat`** を実行する
 3. 指示に従ってインストールする
 4. 完了！
 
-## アップデート方法 (1.2.6-release以降)
+## アップデート方法 (1.2.6-release)
 ・アプリケーション起動時に表示される確認画面で「はい」をクリックする
 
 または
