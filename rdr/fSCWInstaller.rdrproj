@@ -1,0 +1,15 @@
+<プロジェクト 名前="fS Clock Widget Quick Installer" ビット32="×" 管理者実行="○" ライブラリ同梱="○">
+  <一覧>
+    <項目 位置="fSCWInstaller.rdr" 開く="○" />
+  </一覧>
+  <バージョン 値="1.0.0.0">
+    <項目 名前="FileDescription" 値="fS Clock Widget Quick Installer (Online)" />
+    <項目 名前="CompanyName" 値="Milkeyyy" />
+    <項目 名前="ProductName" 値="fS Clock Widget Quick Installer" />
+    <項目 名前="LegalCopyright" 値="Copyright 2021 Milkeyyy" />
+  </バージョン>
+  <リソース>
+    <項目 名前="アイコン" 値="..\Resources\Icons\App\icon.ico" />
+  </リソース>
+  <実行開始 モード="OnConsole" パス="" 形式="Console" />
+</プロジェクト>
