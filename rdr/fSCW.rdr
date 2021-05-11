@@ -13,13 +13,13 @@
 素材として「..\Resources\Icons\window-x16.png」を利用する。素材リストから「window-x16.png」を画像として取得して、pic_window_x16とする
 
 プログラムのタイトル=「fS Clock Widget」
-バージョン=「1.2.7-release」
-内部バージョン=10207.210501
-ビルドバージョン=「2021.0511.1-[プロデルのバージョン]」
+バージョン=「1.2.8-release」
+内部バージョン=10208.210502
+ビルドバージョン=「2021.0511.2-[プロデルのバージョン]」
 ビルド日=「2021/05/11」
-アップデートファイル=「https://raw.githubusercontent.com/Milkeyyy/simpleclockwidget/main/update-data.ini」
-インストーラーURL=「https://github.com/Milkeyyy/simpleclockwidget/raw/installer/exe/_Latest/fSCW-QuickInstaller.exe」
-変更履歴URL=「https://raw.githubusercontent.com/Milkeyyy/simpleclockwidget/main/Changelog.txt」
+アップデートファイル=「https://raw.githubusercontent.com/Milkeyyy/fS-Clock-Widget/main/update-data.ini」
+リリースURL=「https://github.com/Milkeyyy/fS-Clock-Widget/releases/download/」
+変更履歴URL=「https://raw.githubusercontent.com/Milkeyyy/fS-Clock-Widget/main/Changelog.txt」
 初期設定=「[[]info[]]
 last_launch_date=
 create_date=
@@ -907,6 +907,14 @@ Build.[ビルドバージョン] ([ビルド日])」
 	アンインストールボタンがクリックされた時の手順
 		質問真偽=「[プログラムのタイトル] をアンインストールしてもよろしいですか？」を「[プログラムのタイトル] - アンインストール」として警告アイコンにしてはいといいえで質問したもの
 		もし質問真偽がはいなら
+			HTTPで「[アップデートファイル]」を「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」へダウンロードする
+			アップデートという設定ファイルを作る
+			アップデートのファイル名=「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
+			最新バージョン=アップデートについて「info」から「latestVersion」を取得したもの
+			最新内部バージョン=アップデートについて「info」から「latestInternalversion」を取得したもの
+			最新ビルド=アップデートについて「info」から「latestBuild」を取得したもの
+			最新インストーラーファイル名=アップデートについて「info」から「latestInstallerFilename」を取得したもの
+			インストーラーURL=「[リリースURL][最新バージョン]/[最新インストーラーファイル名]」
 			「[プログラムのタイトル]」というフォルダを[テンポラリフォルダ]に作成する
 			[インストーラーURL]を「[テンポラリフォルダ][プログラムのタイトル]\[([インストーラーURL]のファイル名だけ)]」へHTTPでダウンロードする
 			「[テンポラリフォルダ][プログラムのタイトル]\[([インストーラーURL]のファイル名だけ)]」を「-Uninstall」として起動する
@@ -1444,18 +1452,18 @@ Security mode: [プロデルのセキュリティモード]」を情報アイコ
 	配信向け設定について「info」で「create_date」へ「[(今日を「yyyy/MM/dd HH:mm:ss」に整えたもの)]」を設定する
 	配信向け設定について「info」で「version」へ「[バージョン]」を設定する
 	配信向け設定について「info」で「internal_version」へ「[内部バージョン]」を設定する
-	もし[デフォルト設定について「settings」から「date_format」を取得したもの]が空ならデフォルト設定について「settings」で「date_format」へ「HH:mm:ss」を設定する
-	もし[デフォルト設定について「settings」から「window_position」を取得したもの]が空ならデフォルト設定について「settings」で「window_position」へ「0,0」を設定する
-	もし[デフォルト設定について「settings」から「window_size」を取得したもの]が空ならデフォルト設定について「settings」で「window_size」へ「545,190」を設定する
-	もし[デフォルト設定について「settings」から「window_type」を取得したもの]が空ならデフォルト設定について「settings」で「window_type」へ「0」を設定する
-	もし[デフォルト設定について「settings」から「taskbar_icon」を取得したもの]が空ならデフォルト設定について「settings」で「taskbar_icon」へ「1」を設定する
-	もし[デフォルト設定について「settings」から「background_color」を取得したもの]が空ならデフォルト設定について「settings」で「background_color」へ「Lime」を設定する
-	もし[デフォルト設定について「settings」から「background_picture」を取得したもの]が空ならデフォルト設定について「settings」で「background_picture」へ「なし」を設定する
-	もし[デフォルト設定について「settings」から「background_picture_placement」を取得したもの]が空ならデフォルト設定について「settings」で「background_picture_placement」へ「タイル」を設定する
-	もし[デフォルト設定について「settings」から「background_picture_placement_num」を取得したもの]が空ならデフォルト設定について「settings」で「background_picture_placement_num」へ「1」を設定する
-	もし[デフォルト設定について「settings」から「text_color」を取得したもの]が空ならデフォルト設定について「settings」で「text_color」へ「白」を設定する
-	もし[デフォルト設定について「settings」から「font」を取得したもの]が空ならデフォルト設定について「settings」で「font」へ「Meiryo UI,72」を設定する
-	もし[デフォルト設定について「startup_window_list」から「setting_window」を取得したもの]が空ならデフォルト設定について「startup_window_list」で「setting_window」へ「0」を設定する
+	もし[配信向け設定について「settings」から「date_format」を取得したもの]が空なら配信向け設定について「settings」で「date_format」へ「HH:mm:ss」を設定する
+	もし[配信向け設定について「settings」から「window_position」を取得したもの]が空なら配信向け設定について「settings」で「window_position」へ「0,0」を設定する
+	もし[配信向け設定について「settings」から「window_size」を取得したもの]が空なら配信向け設定について「settings」で「window_size」へ「545,190」を設定する
+	もし[配信向け設定について「settings」から「window_type」を取得したもの]が空なら配信向け設定について「settings」で「window_type」へ「0」を設定する
+	もし[配信向け設定について「settings」から「taskbar_icon」を取得したもの]が空なら配信向け設定について「settings」で「taskbar_icon」へ「1」を設定する
+	もし[配信向け設定について「settings」から「background_color」を取得したもの]が空なら配信向け設定について「settings」で「background_color」へ「Lime」を設定する
+	もし[配信向け設定について「settings」から「background_picture」を取得したもの]が空なら配信向け設定について「settings」で「background_picture」へ「なし」を設定する
+	もし[配信向け設定について「settings」から「background_picture_placement」を取得したもの]が空なら配信向け設定について「settings」で「background_picture_placement」へ「タイル」を設定する
+	もし[配信向け設定について「settings」から「background_picture_placement_num」を取得したもの]が空なら配信向け設定について「settings」で「background_picture_placement_num」へ「1」を設定する
+	もし[配信向け設定について「settings」から「text_color」を取得したもの]が空なら配信向け設定について「settings」で「text_color」へ「白」を設定する
+	もし[配信向け設定について「settings」から「font」を取得したもの]が空なら配信向け設定について「settings」で「font」へ「Meiryo UI,72」を設定する
+	もし[配信向け設定について「startup_window_list」から「setting_window」を取得したもの]が空なら配信向け設定について「startup_window_list」で「setting_window」へ「0」を設定する
 	プロファイル設定について「list」で「生配信向け」へ「[マイドキュメント][プログラムのタイトル]\Profile\生配信向け.ini」を設定する
 	ーーここまで
 	
@@ -1757,6 +1765,8 @@ Version [バージョン]」に変える
 			設定画面の選択リスト3の内容を「[プロファイル設定について「settings」から「profile」を取得したもの]」に変える
 			「"[削除プロファイル名]" を削除しました。」を「[プログラムのタイトル] - プロファイルを削除」として情報アイコンで表示する
 		もし終わり
+	他でもし[削除プロファイル名]が「デフォルト」または「生配信向け」なら
+		「"[削除ファイル名]" は削除できません。」を「[プログラムのタイトル] - プロファイルを削除」として中止アイコンで表示する
 	もし終わり
 	発生した場合
 		エラー番号=[エラーの番号]
@@ -1790,6 +1800,8 @@ Version [バージョン]」に変える
 	最新バージョン=アップデートについて「info」から「latestVersion」を取得したもの
 	最新内部バージョン=アップデートについて「info」から「latestInternalversion」を取得したもの
 	最新ビルド=アップデートについて「info」から「latestBuild」を取得したもの
+	最新インストーラーファイル名=アップデートについて「info」から「latestInstallerFilename」を取得したもの
+	インストーラーURL=「[リリースURL][最新バージョン]/[最新インストーラーファイル名]」
 	メイン画面を隠す
 	設定画面を隠す
 	プロファイル一覧画面を隠す
@@ -1803,10 +1815,10 @@ Version [バージョン]」に変える
 	クライアント1で[インストーラーURL]を「[今の位置][([インストーラーURL]のファイル名だけ)]」へダウンロード開始する
 		
 	発生した場合
-	エラー番号=[エラーの番号]
-	エラー内容=[エラーのメッセージ]
-	エラー報告する
-監視終わり
+		エラー番号=[エラーの番号]
+		エラー内容=[エラーのメッセージ]
+		エラー報告する
+	監視終わり
 終わり
 
 クライアント1のダウンロードが進捗した時の手順
@@ -1815,31 +1827,29 @@ Version [バージョン]」に変える
 
 クライアント1のダウンロードが完了した時の手順
 	例外監視
-	
 	アップデート画面のラベル1の内容を「ダウンロード完了」に変える
 	アップデート画面のプログレスバー1の値は、110
 	1秒待つ
 	アップデート画面のラベル1の内容を「アップデート開始...」に変える
 	アップデート画面のプログレスバー1の値は、120
 	0.5秒待つ
-	「[今の位置][([インストーラーURL]のファイル名だけ)]」を開く
-	確認ウィンドウ真偽=×
-	プログラム終了する
-	
+	「[今の位置][([インストーラーURL]のファイル名だけ)]」を「-Update」として起動する
+	確認ウィンドウ真偽=×。プログラム終了する
 	発生した場合
-	エラー番号=[エラーの番号]
-	エラー内容=[エラーのメッセージ]
-	エラー報告する
-監視終わり
+		エラー番号=[エラーの番号]
+		エラー内容=[エラーのメッセージ]
+		エラー報告する
+	監視終わり
 終わり
 ーーここまで
 
 エラー報告する手順
-	「[プログラムのタイトル] *ErrorLog* - Version [バージョン] ([内部バージョン]) | Build.[ビルドバージョン] ([ビルド日])
-[[][(今日を「yyyy/MM/dd HH:mm:ss」に整えたもの)][]]
+	「[プログラムのタイトル] ErrorLog - ([(今日を「yyyy/MM/dd HH:mm:ss」に整えたもの)])
+[[]App Info[]]
+Version [バージョン] ([内部バージョン]) | Build.[ビルドバージョン] ([ビルド日])
 
-エラー番号: [エラー番号]
-エラー内容: [エラー内容]」を「[マイドキュメント][プログラムのタイトル]\ErrorLogs\ErrLog.[(今日を「yyyyMMdd.HHmmss」に整えたもの)]_ErrNum.[エラー番号].txt」へ保存する
+Error number: [エラー番号]
+Error description: [エラー内容]」を「[マイドキュメント][プログラムのタイトル]\ErrorLogs\ErrLog.[(今日を「yyyyMMdd.HHmmss」に整えたもの)]_ErrNum.[エラー番号].txt」へ保存する
 	「[エラー内容]」を「[プログラムのタイトル] - エラー ([エラー番号])」として中止アイコンで表示する
 	終了する
 終わり
