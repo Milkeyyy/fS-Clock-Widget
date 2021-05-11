@@ -1,6 +1,14 @@
 fS Clock Widget - Changelog
 	
-Version 1.2.7-release [10207.210501] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.7-release)
+Version 1.2.8-release [10208.210502] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.8-release)
+[変更点]
+エラーログの書式を一部変更
+[不具合修正]
+「生配信向け」プロファイルへ正しく値が設定されない (#24)
+「デフォルト」プロファイルを削除できてしまう (#25)
+アップデートを実行するとエラーが発生してアップデートを行えない (#26)
+	
+[公開停止] Version 1.2.7-release [10207.210501] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.7-release)
 [変更点]
 インストーラーを追加
 起動引数「/Profile {プロファイル名}」を追加、プロファイルを指定して起動できる
