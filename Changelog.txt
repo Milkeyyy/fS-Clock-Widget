@@ -1,4 +1,7 @@
 fS Clock Widget Quick Installer - Changelog
-	
-Version 1.0.0 [10000.200501] (https://github.com/Milkeyyy/simpleclockwidget/releases/tag/1.2.7-release)
+
+Version 1.1.0 [10100.200502] (https://www.dropbox.com/s/0abnp0xnf055rsg/fSCW-QuickInstaller.exe?dl=0)
+アップデートに対応、それに伴い起動引数「-Update」を追加
+
+Version 1.0.0 [10000.200501] (https://www.dropbox.com/s/vrlyy9abrfdxgs7/fSCW-QuickInstaller.exe?dl=0)
 初回リリースバージョン
