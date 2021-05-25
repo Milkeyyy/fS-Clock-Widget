@@ -1,5 +1,11 @@
 fS Clock Widget - Changelog
 
+Version 1.2.8.2-release [10208.210504] (https://github.com/Milkeyyy/fS-Clock-Widget/releases/tag/1.2.8.2-release)
+[変更点]
+新しいインストーラーに対応
+不要なコードを削除
+インターネット未接続時の例外処理を実装
+
 Version 1.2.8.1-release [10208.210503] (https://github.com/Milkeyyy/fS-Clock-Widget/releases/tag/1.2.8.1-release)
 [変更点]
 プロファイルを新規作成する際に、「デフォルト」という名称で作成できないように変更
