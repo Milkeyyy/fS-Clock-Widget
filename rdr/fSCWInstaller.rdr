@@ -9,7 +9,7 @@
 メインアプリケーションタイトル=「fS Clock Widget」
 メイン実行ファイル名=「fSCW.exe」
 
-アップデートファイルURL=「https://raw.githubusercontent.com/Milkeyyy/simpleclockwidget/main/update-data.ini」
+アップデートファイルURL=「https://raw.githubusercontent.com/Milkeyyy/fS-Clock-Widget/main/update-data.ini」
 
 もし、[プログラムの起動時設定]が空なら
 	起動引数=「なし」
