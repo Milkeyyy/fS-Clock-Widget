@@ -29,6 +29,10 @@ Windows 10 のPCであれば普通に動くと思います。
 
 ---
 
+### Wikiは[こちら](https://github.com/Milkeyyy/fS-Clock-Widget/wiki)
+
+---
+
 ## 画像
 
 ### 設定画面
