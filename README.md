@@ -12,7 +12,18 @@ Windows 10 のPCであれば普通に動くと思います。
 
 使用は自己責任でお願いします。
 
-[**インストール方法**](https://github.com/Milkeyyy/simpleclockwidget#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95)
+---
+
+## インストール方法
+1. **`fSCWSetup.exe`** をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
+2. ダウンロードした **`fSCWSetup.exe`** を実行する
+3. インストールが実行されるので待つ
+4. 完了！
+
+## アップデート方法
+・アプリケーション起動時に表示される確認画面で「はい」をクリックする / 設定画面からアップデートする
+
+---
 
 ## 画像
 
@@ -26,49 +37,10 @@ Windows 10 のPCであれば普通に動くと思います。
 ![fs2](https://user-images.githubusercontent.com/59532514/107875986-91b55880-6f06-11eb-8b83-c0f541e3f154.png)
 ![fs3](https://user-images.githubusercontent.com/59532514/107875987-924def00-6f06-11eb-8ebe-1575fdca2933.png)
 
-## インストール方法
-1. **`fSCW-QuickInstaller.exe`** をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
-2. ダウンロードした **`fSCW-QuickInstaller.exe`** を実行する
-3. インストールが実行されるので待つ
-4. 完了！
-
-## アップデート方法
-・アプリケーション起動時に表示される確認画面で「はい」をクリックする / 設定画面からアップデートする
 
 または
 
 ・**`fSCW-QuickInstaller.exe`** をダウンロードし、実行してインストールする
-
-
----
-## 以下は旧バージョンの手順です
-## インストール方法 (1.2.6-release)
-1. **`fSCWInstaller.bat`** をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
-2. ダウンロードした **`fSCWInstaller.bat`** を実行する
-3. 指示に従ってインストールする
-4. 完了！
-
-## アップデート方法 (1.2.6-release)
-・アプリケーション起動時に表示される確認画面で「はい」をクリックする
-
-または
-
-・「fSCWInstaller.bat」をダウンロードし、実行してインストールする
-
-
-## インストール方法 (1.0-test.4~1.2.5-release)
-1. **`fSCWInstaller.exe`** をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases/latest)
-2. ダウンロードした **`fSCWInstaller.exe`** を実行する
-3. ウィンドウが表示されたらインストール先を指定して「**Extract**」をクリックする (フォルダーは自動的に作成されます)
-4. 完了！
-
-## アップデート方法 (1.0-test.4~1.2.5-release)
-・アプリケーション起動時に表示される確認画面で「はい」をクリックする
-
-または
-
-・「fSCWPackage.exe」をダウンロードし、インストールしてあるフォルダーに移動して実行する
-（確認画面は「Extract」→「Yes to All」を選択）
 
 ---
 **プログラミング言語: プロデル (https://rdr.utopiat.net/)**
