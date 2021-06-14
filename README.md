@@ -23,6 +23,10 @@ Windows 10 のPCであれば普通に動くと思います。
 ## アップデート方法
 ・アプリケーション起動時に表示される確認画面で「はい」をクリックする / 設定画面からアップデートする
 
+または
+
+・**`fSCWSetup.exe`** をダウンロードし、実行してインストールする
+
 ---
 
 ## 画像
@@ -37,10 +41,6 @@ Windows 10 のPCであれば普通に動くと思います。
 ![fs2](https://user-images.githubusercontent.com/59532514/107875986-91b55880-6f06-11eb-8b83-c0f541e3f154.png)
 ![fs3](https://user-images.githubusercontent.com/59532514/107875987-924def00-6f06-11eb-8ebe-1575fdca2933.png)
 
-
-または
-
-・**`fSCW-QuickInstaller.exe`** をダウンロードし、実行してインストールする
 
 ---
 **プログラミング言語: プロデル (https://rdr.utopiat.net/)**
