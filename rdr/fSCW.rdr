@@ -21,7 +21,7 @@
 ビルドバージョン=「test.[素材リストから「BuildVersion.txt」を文字列として取得したもので[改行]を「」へ置き換えたもの]-[プロデルのバージョン]」
 ビルド日=「[素材リストから「BuildDate.txt」を文字列として取得したもので[改行]を「」へ置き換えたもの]」
 
-アップデートファイル=「https://github.com/Milkeyyy/fS-Clock-Widget/raw/update/update-data.ini」
+アップデートファイル=「https://raw.githubusercontent.com/Milkeyyy/fS-Clock-Widget/update/update-data.ini」
 リリースURL=「https://github.com/Milkeyyy/fS-Clock-Widget/releases/download/」
 変更履歴URL=「https://github.com/Milkeyyy/fS-Clock-Widget/raw/test/Changelog.txt」
 
@@ -318,9 +318,9 @@ DPI値取得する
 	ーー設定ファイルの設定
 	アップデートという設定ファイルを作る
 	アップデートのファイル名は、「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
-	最新バージョン=アップデートについて「info」から「latestVersion」を取得したもの
-	最新内部バージョン=アップデートについて「info」から「latestInternalversion」を取得したもの
-	最新ビルド=アップデートについて「info」から「latestBuild」を取得したもの
+	最新バージョン=アップデートについて「info_test」から「latestVersion」を取得したもの
+	最新内部バージョン=アップデートについて「info_test」から「latestInternalversion」を取得したもの
+	最新ビルド=アップデートについて「info_test」から「latestBuild」を取得したもの
 	
 	もし、[最新内部バージョン]>[内部バージョン]なら
 	ダイアログ内容=「[プログラムのタイトル]の新しいバージョンがあります。
@@ -2003,20 +2003,20 @@ Security mode: [プロデルのセキュリティモード]」を情報アイコ
 	
 	アップデートという設定ファイルを作る
 	アップデートのファイル名は、「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
-	最新お知らせファイルURL=アップデートについて「info」から「latestNoticeFileURL」を取得したもの
-	最新お知らせファイル名=アップデートについて「info」から「latestNoticeFileName」を取得したもの
+	最新お知らせファイルURL=アップデートについて「info_test」から「latestNoticeFileURL」を取得したもの
+	最新お知らせファイル名=アップデートについて「info_test」から「latestNoticeFileName」を取得したもの
 	ーーお知らせファイルのダウンロード
 	HTTPで「[最新お知らせファイルURL][最新お知らせファイル名]」を「[マイドキュメント][プログラムのタイトル]\fCWNotice.txt」へダウンロードする
 	
-	最新お知らせリリース日=アップデートについて「info」から「latestNoticeReleaseDate」を取得したもの
-	最新お知らせバージョン=アップデートについて「info」から「latestNoticeVersion」を取得したもの
+	最新お知らせリリース日=アップデートについて「info_test」から「latestNoticeReleaseDate」を取得したもの
+	最新お知らせバージョン=アップデートについて「info_test」から「latestNoticeVersion」を取得したもの
 	お知らせ内容=「[マイドキュメント][プログラムのタイトル]\fCWNotice.txt」から読み込んだもの
 	
 	もし任意が○なら
 		お知らせ画面を表示する
 	そうでなければ
-		もし、[最新お知らせバージョン]>[メイン設定について「info」から「notice_version」を取得したもの]なら
-			メイン設定について「info」で「notice_version」へ「[最新お知らせバージョン]」を設定する
+		もし、[最新お知らせバージョン]>[メイン設定について「info_test」から「notice_version」を取得したもの]なら
+			メイン設定について「info_test」で「notice_version」へ「[最新お知らせバージョン]」を設定する
 			お知らせ画面をダイアログで表示する
 		もし終わり
 	もし終わり
@@ -2338,10 +2338,10 @@ Version [バージョン]」に変える
 	HTTPで「[アップデートファイル]」を「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」へダウンロードする
 	アップデートという設定ファイルを作る
 	アップデートのファイル名=「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
-	最新バージョン=アップデートについて「info」から「latestVersion」を取得したもの
-	最新内部バージョン=アップデートについて「info」から「latestInternalversion」を取得したもの
-	最新ビルド=アップデートについて「info」から「latestBuild」を取得したもの
-	最新インストーラーファイル名=アップデートについて「info」から「latestInstallerFilename」を取得したもの
+	最新バージョン=アップデートについて「info_test」から「latestVersion」を取得したもの
+	最新内部バージョン=アップデートについて「info_test」から「latestInternalversion」を取得したもの
+	最新ビルド=アップデートについて「info_test」から「latestBuild」を取得したもの
+	最新インストーラーファイル名=アップデートについて「info_test」から「latestInstallerFilename」を取得したもの
 	インストーラーURL=「[リリースURL][最新バージョン]/[最新インストーラーファイル名]」
 	例外監視
 		メイン画面を隠す
