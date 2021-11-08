@@ -1,11 +1,11 @@
-<プロジェクト 名前="fS Clock Widget" ビット32="○" 管理者実行="×" ライブラリ同梱="○">
+<プロジェクト 名前="fSCWProcessKiller" ビット32="○" 管理者実行="×" ライブラリ同梱="○">
   <一覧>
-    <項目 位置="rdr\fSCW.rdr" 開始="○" 開く="○" />
+    <項目 位置="fSCWPK.rdr" 開始="○" 開く="○" />
   </一覧>
-  <バージョン 値="1.3.2.0">
-    <項目 名前="FileDescription" 値="fS Clock Widget" />
+  <バージョン 値="1.0.0.0">
+    <項目 名前="FileDescription" 値="fSCWProcessKiller" />
     <項目 名前="CompanyName" 値="Milkeyyy" />
-    <項目 名前="ProductName" 値="fS Clock Widget" />
+    <項目 名前="ProductName" 値="fSCWProcessKiller" />
     <項目 名前="LegalCopyright" 値="Copyright 2021 Milkeyyy" />
   </バージョン>
   <リソース>

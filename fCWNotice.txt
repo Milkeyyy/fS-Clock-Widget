@@ -1,2 +1,0 @@
-Version 1.3.2-release をリリース
-詳しい変更内容は https://raw.githubusercontent.com/Milkeyyy/fS-Clock-Widget/main/Changelog.txt を参照してください！

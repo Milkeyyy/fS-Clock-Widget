@@ -1,4 +1,0 @@
-//画像サイズ取得デモ
-サイズW=「「powershell -c "add-type -AssemblyName System.Drawing;$img=[System.Drawing.Image]::FromFile('FilePath');'W'+$img.Width+'W'"」」をコマンド実行したもの
-サイズH=「「powershell -c "add-type -AssemblyName System.Drawing;$img=[System.Drawing.Image]::FromFile('FilePath');'H'+$img.Height+'H'"」」をコマンド実行したもの
-「[サイズWで「W」から「W」まで抽出したもの(1)]x[サイズHで「H」から「H」まで抽出したもの(1)]」からスペースを消したものを表示する
