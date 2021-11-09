@@ -25,6 +25,12 @@
 リリースURL=「https://github.com/Milkeyyy/fS-Clock-Widget/releases/download/」
 変更履歴URL=「https://github.com/Milkeyyy/fS-Clock-Widget/raw/test/Changelog.txt」
 
+もしビルドバージョンが「test」を含むなら
+	アップデートファイルデータ取得ビルド=「info_test」
+他でもしビルドバージョンが「release」を含むなら
+	アップデートファイルデータ取得ビルド=「info」
+もし終わり
+
 初期設定=「[[]info[]]
 last_launch_date=
 version=
@@ -318,9 +324,9 @@ DPI値取得する
 	ーー設定ファイルの設定
 	アップデートという設定ファイルを作る
 	アップデートのファイル名は、「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
-	最新バージョン=アップデートについて「info_test」から「latestVersion」を取得したもの
-	最新内部バージョン=アップデートについて「info_test」から「latestInternalversion」を取得したもの
-	最新ビルド=アップデートについて「info_test」から「latestBuild」を取得したもの
+	最新バージョン=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestVersion」を取得したもの
+	最新内部バージョン=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestInternalversion」を取得したもの
+	最新ビルド=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestBuild」を取得したもの
 	
 	もし、[最新内部バージョン]>[内部バージョン]なら
 	ダイアログ内容=「[プログラムのタイトル]の新しいバージョンがあります。
@@ -1359,9 +1365,9 @@ DPI値取得する手順
 				//設定ファイルの設定
 				アップデートという設定ファイルを作る
 				アップデートのファイル名は、「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
-				最新バージョン=アップデートについて「info_test」から「latestVersion」を取得したもの
-				最新内部バージョン=アップデートについて「info_test」から「latestInternalversion」を取得したもの
-				最新ビルド=アップデートについて「info_test」から「latestBuild」を取得したもの
+				最新バージョン=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestVersion」を取得したもの
+				最新内部バージョン=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestInternalversion」を取得したもの
+				最新ビルド=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestBuild」を取得したもの
 				
 				//インストーラーをダウンロード→実行
 				もし「[テンポラリフォルダ]fSCW」が存在しないなら「fSCW」というフォルダを「[テンポラリフォルダ]」へ作成する
@@ -2067,13 +2073,13 @@ Security mode: [プロデルのセキュリティモード]」を情報アイコ
 	
 	アップデートという設定ファイルを作る
 	アップデートのファイル名は、「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
-	最新お知らせファイルURL=アップデートについて「info_test」から「latestNoticeFileURL」を取得したもの
-	最新お知らせファイル名=アップデートについて「info_test」から「latestNoticeFileName」を取得したもの
+	最新お知らせファイルURL=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestNoticeFileURL」を取得したもの
+	最新お知らせファイル名=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestNoticeFileName」を取得したもの
 	ーーお知らせファイルのダウンロード
 	HTTPで「[最新お知らせファイルURL][最新お知らせファイル名]」を「[マイドキュメント][プログラムのタイトル]\fCWNotice.txt」へダウンロードする
 	
-	最新お知らせリリース日=アップデートについて「info_test」から「latestNoticeReleaseDate」を取得したもの
-	最新お知らせバージョン=アップデートについて「info_test」から「latestNoticeVersion」を取得したもの
+	最新お知らせリリース日=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestNoticeReleaseDate」を取得したもの
+	最新お知らせバージョン=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestNoticeVersion」を取得したもの
 	お知らせ内容=「[マイドキュメント][プログラムのタイトル]\fCWNotice.txt」から読み込んだもの
 	
 	もし任意が○なら
@@ -2402,10 +2408,10 @@ Version [バージョン]」に変える
 	HTTPで「[アップデートファイル]」を「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」へダウンロードする
 	アップデートという設定ファイルを作る
 	アップデートのファイル名=「[マイドキュメント][プログラムのタイトル]\Update\update-data.ini」
-	最新バージョン=アップデートについて「info_test」から「latestVersion」を取得したもの
-	最新内部バージョン=アップデートについて「info_test」から「latestInternalversion」を取得したもの
-	最新ビルド=アップデートについて「info_test」から「latestBuild」を取得したもの
-	最新インストーラーファイル名=アップデートについて「info_test」から「latestInstallerFilename」を取得したもの
+	最新バージョン=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestVersion」を取得したもの
+	最新内部バージョン=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestInternalversion」を取得したもの
+	最新ビルド=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestBuild」を取得したもの
+	最新インストーラーファイル名=アップデートについて「[アップデートファイルデータ取得ビルド]」から「latestInstallerFilename」を取得したもの
 	インストーラーURL=「[リリースURL][最新バージョン]/[最新インストーラーファイル名]」
 	例外監視
 		メイン画面を隠す
