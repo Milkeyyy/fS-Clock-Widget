@@ -18,17 +18,23 @@
 プログラムのタイトル=「fS Clock Widget」
 バージョン=「1.4.0-test.2」
 内部バージョン=「10399.211102」
-ビルドバージョン=「test.[素材リストから「BuildVersion.txt」を文字列として取得したもので[改行]を「」へ置き換えたもの]-[プロデルのバージョン]」
+ビルド=「test」
+ビルドバージョン=「[ビルド].[素材リストから「BuildVersion.txt」を文字列として取得したもので[改行]を「」へ置き換えたもの]-[プロデルのバージョン]」
 ビルド日=「[素材リストから「BuildDate.txt」を文字列として取得したもので[改行]を「」へ置き換えたもの]」
 
 アップデートファイル=「https://raw.githubusercontent.com/Milkeyyy/fS-Clock-Widget/update/update-data.ini」
 リリースURL=「https://github.com/Milkeyyy/fS-Clock-Widget/releases/download/」
-変更履歴URL=「https://github.com/Milkeyyy/fS-Clock-Widget/raw/test/Changelog.txt」
+変更履歴URL=「https://github.com/Milkeyyy/fS-Clock-Widget/raw/[ビルド]/Changelog.txt」
 
 もしビルドバージョンが「test」を含むなら
 	アップデートファイルデータ取得ビルド=「info_test」
+	
 他でもしビルドバージョンが「release」を含むなら
 	アップデートファイルデータ取得ビルド=「info」
+	
+そうでなければ
+	アップデートファイルデータ取得ビルド=「info」
+	
 もし終わり
 
 初期設定=「[[]info[]]
