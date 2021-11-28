@@ -1,14 +1,47 @@
 # fS Clock Widget
-## インストール方法 (1.0-test.4以降)
-1. 「**fSCWInstaller.exe**」をダウンロードする (https://github.com/Milkeyyy/simpleclockwidget/releases)
-2. ダウンロードした「**fSCWInstaller.exe**」を実行する
-3. ウィンドウが表示されたらインストール先を指定して「**Extract**」をクリックする (フォルダーは自動的に作成されます)
-4. 完了
 
-## アップデート方法 (1.0-test.4以降)
-・アプリケーション起動時に表示される確認画面で「はい」をクリックする
+## 注意事項
+このアプリケーションを使用した影響で何らかの問題が発生しても、Milkeyyyは一切の責任を負いません。
+
+使用は自己責任でお願いします。
+
+---
+
+## ダウンロード
+### [最新版 (release)](https://github.com/Milkeyyy/fS-Clock-Widget/releases/latest)
+- [全バージョン (test含む)](https://github.com/Milkeyyy/fS-Clock-Widget/releases)
+
+## インストール方法
+1. **`fSCWSetup.exe`** を[**ダウンロード**](#ダウンロード)する
+2. ダウンロードした **`fSCWSetup.exe`** を実行する
+3. インストールが実行されるので待つ
+4. 完了！
+
+## アップデート方法
+・アプリケーション起動時に表示される確認画面で「はい」をクリックする / アプリケーション内の「アップデート」の項目からアップデートする
 
 または
 
-・「fSCWPackage.exe」をダウンロードし、インストールしてあるフォルダーに移動して実行する
-（確認画面は「Extract」→「Yes to All」を選択）
+・**`fSCWSetup.exe`** をダウンロードし、実行してインストールする
+
+## 画像
+
+### メイン画面
+![](https://i.imgur.com/QbkuqRL.png)
+![](https://i.imgur.com/K5biuqX.png)
+
+### 設定画面
+![](https://i.imgur.com/Diu1tf1.png)
+![](https://i.imgur.com/ShwkJVs.png)
+
+### プロファイル一覧画面
+![](https://i.imgur.com/QqJddBj.png)
+
+### カスタマイズ例
+![fs1](https://user-images.githubusercontent.com/59532514/107875984-8feb9500-6f06-11eb-845b-3ef72ebe8bb6.png)
+![fs2](https://user-images.githubusercontent.com/59532514/107875986-91b55880-6f06-11eb-8b83-c0f541e3f154.png)
+![fs3](https://user-images.githubusercontent.com/59532514/107875987-924def00-6f06-11eb-8ebe-1575fdca2933.png)
+
+
+---
+プログラミング言語: **プロデル** (https://rdr.utopiat.net/)
