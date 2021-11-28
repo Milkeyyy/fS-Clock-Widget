@@ -44,6 +44,7 @@
 ![fs2](https://user-images.githubusercontent.com/59532514/107875986-91b55880-6f06-11eb-8b83-c0f541e3f154.png)
 ![fs3](https://user-images.githubusercontent.com/59532514/107875987-924def00-6f06-11eb-8ebe-1575fdca2933.png)
 
+`fS Clock Widget Copyright 2021 Milkeyyy`
 
 ---
 プログラミング言語: **プロデル** (https://rdr.utopiat.net/)
