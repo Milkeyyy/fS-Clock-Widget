@@ -14,10 +14,10 @@
 素材として「..\Resources\Icons\window-x16.png」を利用する。素材リストから「window-x16.png」を画像として取得して、pic_window_x16とする
 
 プログラムのタイトル=「fS Clock Widget」
-バージョン=「1.3.2-release」
-内部バージョン=「10302.211001」
-ビルドバージョン=「2021.1031.1-[プロデルのバージョン]」
-ビルド日=「2021/10/31」
+バージョン=「1.3.3-release」
+内部バージョン=「10303.211201」
+ビルドバージョン=「2021.1231.1-[プロデルのバージョン]」
+ビルド日=「2021/12/31」
 アップデートファイル=「https://github.com/Milkeyyy/fS-Clock-Widget/raw/update/update-data.ini」
 リリースURL=「https://github.com/Milkeyyy/fS-Clock-Widget/releases/download/」
 変更履歴URL=「https://raw.githubusercontent.com/Milkeyyy/fS-Clock-Widget/main/Changelog.txt」
@@ -255,7 +255,7 @@ DPI値取得する手順
 	ディスプレイDPI値=[ディスプレイDPI値]
 	ディスプレイDPI設計値=「[ディスプレイDPI値],[ディスプレイDPI値]」
 	ディスプレイDPI設計値を表示する*/
-	ディスプレイDPI設計値=「96,96」
+	ディスプレイDPI設計値={96,96}
 終わり
 
 メイン画面とは
