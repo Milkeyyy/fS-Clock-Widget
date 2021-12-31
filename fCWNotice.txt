@@ -1,2 +1,2 @@
-Version 1.3.2-release をリリース
+Version 1.3.3-release をリリース
 詳しい変更内容は s.k3yy.ml/fSCWChangelogRelease を参照してください！
