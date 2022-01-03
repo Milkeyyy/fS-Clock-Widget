@@ -15,6 +15,7 @@
 素材として「..\Resources\Icons\window-x16.png」を利用する。素材リストから「window-x16.png」を画像として取得して、pic_window_x16とする
 素材として「..\BuildVersion.txt」を利用する
 素材として「..\BuildDate.txt」を利用する
+素材として「..\Resources\Bin\fSCWPK.exe」を利用する
 
 プログラムのタイトル=「fS Clock Widget」
 バージョン=「1.4.0-test.3」
@@ -2341,6 +2342,10 @@ Security mode: [プロデルのセキュリティモード]」を情報アイコ
 	ーーエラー履歴を保存するフォルダーの有無確認手順
 	もし「[マイドキュメント][プログラムのタイトル]\ErrorLogs」が存在しないなら「ErrorLogs」というフォルダを「[マイドキュメント][プログラムのタイトル]」へ作成する
 	ーーここまで
+	
+	//fSCWProcessKillerを今の位置にコピー (fSCWProcessKillerが既に存在する場合は削除する)
+	もし「[今の位置]fSCWPK.exe」が存在するなら「[今の位置]fSCWPK.exe」を削除する
+	素材リストから「fSCWPK.exe」を「[今の位置]fSCWPK.exe」へ保存する
 	
 	発生した場合
 		エラー番号=[エラーの番号]
